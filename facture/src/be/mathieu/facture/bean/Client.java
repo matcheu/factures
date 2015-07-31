@@ -9,6 +9,13 @@ public class Client {
 	private String email;
 	private Float tauxFacturation;
 	private String contact;
+	private Client clientParent;
+	public Client getClientParent() {
+		return clientParent;
+	}
+	public void setClientParent(Client clientParent) {
+		this.clientParent = clientParent;
+	}
 	public Long getId() {
 		return id;
 	}
